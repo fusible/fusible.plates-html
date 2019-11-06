@@ -1,0 +1,24 @@
+{
+    "name": "fusible/plates-html",
+    "description": "Plates Extension for Aura Html",
+    "type": "library",
+    "require": {
+        "league/plates": "^3.3",
+        "aura/html": "^2.5"
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fusible\\PlatesHtml\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ]
+}
